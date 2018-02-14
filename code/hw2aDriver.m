@@ -14,5 +14,5 @@ clc
 negSin = @(x) - sin(x)
 negCos = @(x) - cos(x)
 %call comparedervis
-comparederivs([pi/4],@sin, @cos, negSin, negCos)
+comparederivs([pi],@sin, @cos, negSin, negCos)
 
